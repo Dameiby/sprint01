@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge one</title>
+</head>
+<body>
+    <header>
+        <img class="logo"  src="imagen/logoAlura.png" alt="logo Alura">
+    </header> 
+    <main>
+        <section class="areaIzquierda">
+            <textarea class="entradaMensaje" cols="40" rows="6" placeholder="Ingrese el mensaje aqui"></textarea>  
+                <div class="informacion">
+                    <img class="infoLogo" src="imagen/exclamacion.png" alt="imagen de exclamacion">
+                    <h6 class="infoTitulo">Solo letras minusculas y sin acentos</h6>
+                </div>
+            <div class="botonera">
+                <button class="encriptar" onclick="btnEncriptar()">
+                Encriptar
+                </button> 
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                Desencriptar
+                </button> 
+            </div>
+        </section>
+    
+        <section class="areaDerecha">
+            <textarea class="salidaMensaje" cols="18" rows="8"> </textarea> 
+            <div class="ocultar">
+                <h2 id="mensajeIzq">Ningun mensaje fue encontrado</h2>
+                <h6 id="mandato">Ingresa el mensaje que desea encriptar o desencriptar</h6>
+            </div>
+            <button class="copiar" onclick="btncopiar()"> Copiar </button> 
+        </section>
+
+    </main>
+    <footer>
+       <h6 id="footer">Programado por NavarroTech</h6> 
+    </footer>  
+</body>
+<script src="script.js"></script>

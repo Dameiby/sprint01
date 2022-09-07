@@ -1,0 +1,88 @@
+* {
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background: #FFF;
+} 
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px; 
+}
+
+.entradaMensaje{
+    margin-top: 90px;
+    border: 0;
+    outline: none;
+    
+    text-transform: lowercase;
+}
+
+.informacion{
+    display: flex;
+    position: relative;
+}
+.infoLogo{
+    margin-top: 16px;
+    width: 15px;
+    height: 15px;
+}
+.infoTitulo{
+margin-left: 6px;
+    font-size: 12px;
+}
+.botonera{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.encriptar {
+    border-radius: 15px;
+    background-color: darkblue;
+    color:white;
+}
+
+.desencriptar {
+
+    margin-left: 30px;
+    border-radius: 15px;
+}
+.salidaMensaje{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("Imagen/imagenResultado.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    border: 0;
+    outline: none;
+    resize: none;
+
+}
+#mensajeIzq , #mandato{
+    margin-bottom: 0%;
+    text-align: center;
+    font-weight: bold;
+
+}
+#mandato{
+    margin-top: 0%;  
+}
+.copiar {
+    position: relative;
+    border-radius: 15px;
+    margin-top: 14%;
+    margin-left: 220px;
+}
+#footer,#mandato{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
